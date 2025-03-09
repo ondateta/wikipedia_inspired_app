@@ -1,0 +1,39 @@
+name: template
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  gap:
+  google_fonts:
+  go_router:
+  adaptive_theme:
+  bounce:
+  motion:
+  universal_io:
+  hive:
+  hive_flutter:
+  path_provider:
+  flutter_markdown:
+  flutter_hooks:
+  cached_network_image:
+  shimmer:
+  lottie:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  hive_generator:
+  build_runner:
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
