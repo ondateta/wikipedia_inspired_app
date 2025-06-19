@@ -4,4 +4,3 @@
 - With just one prompt: "Make an Instagram clone. Local only"
 - It works on Web & Native
 
-## Built with Teta
