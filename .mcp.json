@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "dart": {
+      "command": "dart",
+      "args": [
+        "mcp-server"
+      ]
+    },
+    "mcp-svelte-docs": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-svelte-docs"
+      ]
+    }
+  }
+}
