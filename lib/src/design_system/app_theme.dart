@@ -62,7 +62,7 @@ class AppTheme {
       scaffoldBackgroundColor: backgroundLight,
       iconButtonTheme: IconButtonThemeData(
         style: ButtonStyle(
-          foregroundColor: MaterialStateProperty.all(textLight),
+          foregroundColor: WidgetStateProperty.all(textLight),
         ),
       ),
       appBarTheme: const AppBarTheme(
@@ -75,7 +75,7 @@ class AppTheme {
       iconTheme: const IconThemeData(
         color: textLight,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 0,
         surfaceTintColor: Colors.transparent,
         color: surfaceContainerLight,
@@ -126,7 +126,7 @@ class AppTheme {
       scaffoldBackgroundColor: backgroundDark,
       iconButtonTheme: IconButtonThemeData(
         style: ButtonStyle(
-          foregroundColor: MaterialStateProperty.all(textDark),
+          foregroundColor: WidgetStateProperty.all(textDark),
         ),
       ),
       appBarTheme: const AppBarTheme(
@@ -139,7 +139,7 @@ class AppTheme {
       iconTheme: const IconThemeData(
         color: textDark,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 0,
         surfaceTintColor: Colors.transparent,
         color: surfaceContainerDark,
